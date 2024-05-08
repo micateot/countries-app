@@ -2,7 +2,7 @@
 <hr>
 <div class="row">
   <div class="col">
-    <shared-search-box [placeholder]="'Buscar por nombre'" (onValue)="searchByName($event)"></shared-search-box>
+    <shared-search-box [placeholder]="'Buscar por nombre'" (onDebounce)="searchByName($event)"></shared-search-box>
   </div>
 </div>
 
